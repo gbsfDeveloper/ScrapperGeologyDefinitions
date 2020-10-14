@@ -31,7 +31,7 @@ USE `test`;
 --
 
 CREATE TABLE `geologyterms` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `main_title` varchar(200) NOT NULL,
   `main_text` varchar(5000) NOT NULL,
   `main_html` varchar(10000) NOT NULL,
